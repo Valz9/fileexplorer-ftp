@@ -2,7 +2,7 @@
 
 name: Build APK
 
-on: push: branches: [ "main" ]
+on: push: branches: [ "Create main" ]
 
 jobs: build: name: Build Android APK runs-on: ubuntu-latest
 
