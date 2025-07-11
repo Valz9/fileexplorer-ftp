@@ -1,0 +1,15 @@
+#!/bin/sh
+##############################################################################
+##
+##  Gradle start up script for UN*X
+##
+##############################################################################
+
+# Locate java binary
+if [ -n "$JAVA_HOME" ] ; then
+    JAVA_BIN="$JAVA_HOME/bin/java"
+else
+    JAVA_BIN="java"
+fi
+
+exec "$JAVA_BIN" -Xmx64m -Xms64m -classpath "gradle/wrapper/gradle-wrapper.jar" org.gradle.wrapper.GradleWrapperMain "$@"
