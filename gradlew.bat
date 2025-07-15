@@ -1,2 +1,1 @@
-@echo off
-rem placeholder gradlew.bat script
+// gradlew.bat content here

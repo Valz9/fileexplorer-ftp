@@ -1,2 +1,1 @@
-#!/bin/bash
-# placeholder gradlew script
+// gradlew content here
